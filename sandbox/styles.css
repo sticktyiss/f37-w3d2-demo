@@ -1,0 +1,40 @@
+.middle {
+  background-color: orange;
+}
+
+.even {
+  width: 30%;
+}
+
+p {
+  font-size: large;
+  color: violet;
+  background-color: black;
+}
+
+#box-section {
+  height: 50vh;
+  width: 50vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px dotted black;
+}
+
+div {
+  background-color: pink;
+  border: 5px solid black;
+  position: relative;
+  /* display: flex; */
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#position-box {
+  position: sticky;
+  top: 5%;
+  background-color: lightgreen;
+}
